@@ -214,6 +214,7 @@ main{
     display: flex;
     justify-content: space-evenly;
     margin-top: 50px;
+    gap: 30px;
 }
 
 .review-cart {
@@ -341,6 +342,7 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 30px;
 }
 .touch-content{
     width: 50%;
