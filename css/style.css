@@ -1,34 +1,35 @@
-
-body{
+body {
     /* background-color: #e8f6f3; */
     background-color: #f5f7fe;
 }
 
-header{
+header {
     background-image: url('../Assets/Hero-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0px;
     background-position: center;
-    
+
 }
 
 /* navbar  */
-.navbar{
+.navbar {
     width: 85%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.navbar-logo h2{
+
+.navbar-logo h2 {
     font-family: "Inter", sans-serif;
     font-size: 34px;
     font-weight: bold;
     color: #4E47FF;
     cursor: pointer;
 }
-.navbar-btn button{
+
+.navbar-btn button {
     border: none;
     border-radius: 10px;
     padding: 12px 36px;
@@ -38,21 +39,24 @@ header{
 }
 
 /* Banner section  */
-.banner-section{
+.banner-section {
     width: 80%;
     margin: 150px auto;
 }
-.banner-content{
+
+.banner-content {
     text-align: center;
     gap: 37px;
 }
-.banner-content h2{
+
+.banner-content h2 {
     font-family: "Raleway", sans-serif;
     font-weight: bold;
     font-size: 65px;
     color: #252432;
 }
-.banner-content button{
+
+.banner-content button {
     border: none;
     border-radius: 10px;
     padding: 12px 36px;
@@ -65,32 +69,37 @@ header{
 
 
 /* see section  */
-.see-section{
+.see-section {
     background-color: #f5f7fe;
 }
-.see{
+
+.see {
     display: flex;
     justify-content: space-between;
     width: 80%;
     margin: 0 auto;
 }
-.see-content{
+
+.see-content {
     width: 40%;
     margin: auto 0;
 }
-.see-content h3{
+
+.see-content h3 {
     font-family: "Raleway", sans-serif;
     font-weight: bold;
     font-size: 42px;
     color: #252432;
     margin: 5px;
 }
-.see-content p{
+
+.see-content p {
     font-size: 20px;
     color: #252432;
     opacity: 50%;
 }
-.see-content button{
+
+.see-content button {
     border: none;
     border-radius: 10px;
     padding: 12px 36px;
@@ -98,10 +107,12 @@ header{
     background-color: #4E47FF;
     cursor: pointer;
 }
-.see-image{
+
+.see-image {
     width: 40%;
 }
-.see-image img{
+
+.see-image img {
     border: none;
     border-radius: 48px;
     width: 100%;
@@ -110,7 +121,7 @@ header{
 
 /* join section  */
 
-.join{
+.join {
     width: 80%;
     margin: 0 auto;
     background-color: #eef0ff;
@@ -119,7 +130,8 @@ header{
     border-radius: 24px;
     margin-top: 116px;
 }
-.join h4{
+
+.join h4 {
     font-family: "Raleway", sans-serif;
     font-size: 38px;
     font-weight: bold;
@@ -128,19 +140,26 @@ header{
     margin: 0;
     margin-bottom: 30px;
 }
-.join-container{
+
+.join-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.active h1,.Focus h1,.rate h1{
+
+.active h1,
+.Focus h1,
+.rate h1 {
     font-weight: bold;
     font-size: 80px;
     font-family: "Inter", sans-serif;
     color: #4E47FF;
     margin: 0;
 }
-.active p,.Focus p,.rate p{
+
+.active p,
+.Focus p,
+.rate p {
     font-family: "Inter", sans-serif;
     font-size: 20px;
     color: #000000;
@@ -149,24 +168,26 @@ header{
 }
 
 /* review section  */
-.review{
+.review {
     width: 80%;
     margin: 80px auto;
 }
-.review h2{
+
+.review h2 {
     font-family: "Raleway", sans-serif;
     font-size: 42px;
     font-weight: bold;
     color: #252432;
     text-align: center;
 }
-.review-container{
+
+.review-container {
     display: flex;
     justify-content: space-evenly;
     margin-top: 50px;
 }
 
-.review-cart{
+.review-cart {
     border: 2px solid #F2EDED;
     border-radius: 14px;
     background-color: #FFFFFF;
@@ -174,44 +195,99 @@ header{
     width: 300px;
     padding: 24px;
 }
-.review-star{
+
+.review-star {
     margin-bottom: 24px;
 }
-.review-star i{
+
+.review-star i {
     color: #FFB805;
 }
-.review-content{
+
+.review-content {
     margin-bottom: 24px;
 }
-.review-content h3{
+
+.review-content h3 {
     margin-bottom: 5px;
     color: #1E1E1E;
 }
-.review-content p{
+
+.review-content p {
     font-size: 16px;
     margin: 0;
     color: #1E1E1E;
 }
-.review-user{
+
+.review-user {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     gap: 30px;
 }
-.review-user img{
-    width: 60px;
-    height: 60px;
+
+.review-user img {
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     margin-bottom: 10px;
 }
-.review-user-part{
+
+.review-user-part {
     margin: auto 0;
 }
-.review-user-part h4{
+
+.review-user-part h4 {
     color: #757575;
     margin: 0;
 }
-.review-user-part p{
+
+.review-user-part p {
     color: #B3B3B3;
     margin-top: 10px;
+}
+
+
+
+/* Webflow section  */
+
+
+
+.webflow-div {
+    width: 80%;
+    margin: 0 auto;
+    border: none;
+    border-radius: 14px;
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 70px 0;
+}
+
+.webflow-div h2 {
+    font-family: "Raleway", sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+    margin: 0;
+    /* margin-top: 70px; */
+}
+.webflow-div p{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: #000000;
+    opacity: 50%;
+}
+.webflow-div button{
+    border: none;
+    border-radius: 10px;
+    padding: 12px 36px;
+    color: white;
+    background-color: #4E47FF;
+    cursor: pointer;
+    margin: 20px 0;
+}
+.webflow-div img{
+    border: none;
+    border-radius: 48px;
+    width: 840px;
 }
