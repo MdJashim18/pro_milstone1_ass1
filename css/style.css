@@ -212,7 +212,7 @@ main{
 
 .review-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     margin-top: 50px;
     gap: 30px;
 }
@@ -340,12 +340,13 @@ main{
     margin: 50px auto;
     padding: 70px 0;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
     gap: 30px;
 }
 .touch-content{
     width: 50%;
+    padding: 0 20px;
 }
 .touch-content h1{
     font-family: "Raleway", sans-serif;
@@ -356,6 +357,7 @@ main{
 
 .touch-form{
     width: 50%;
+    padding: 0 20px;
 }
 .inp{
     margin: 15px 0;
