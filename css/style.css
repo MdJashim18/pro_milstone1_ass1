@@ -147,3 +147,71 @@ header{
     opacity: 50%;
     margin: 0;
 }
+
+/* review section  */
+.review{
+    width: 80%;
+    margin: 80px auto;
+}
+.review h2{
+    font-family: "Raleway", sans-serif;
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    text-align: center;
+}
+.review-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.review-cart{
+    border: 2px solid #F2EDED;
+    border-radius: 14px;
+    background-color: #FFFFFF;
+    opacity: 100%;
+    width: 300px;
+    padding: 24px;
+}
+.review-star{
+    margin-bottom: 24px;
+}
+.review-star i{
+    color: #FFB805;
+}
+.review-content{
+    margin-bottom: 24px;
+}
+.review-content h3{
+    margin-bottom: 5px;
+    color: #1E1E1E;
+}
+.review-content p{
+    font-size: 16px;
+    margin: 0;
+    color: #1E1E1E;
+}
+.review-user{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+}
+.review-user img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.review-user-part{
+    margin: auto 0;
+}
+.review-user-part h4{
+    color: #757575;
+    margin: 0;
+}
+.review-user-part p{
+    color: #B3B3B3;
+    margin-top: 10px;
+}
